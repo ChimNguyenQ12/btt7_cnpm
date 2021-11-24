@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    #header_1 {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+
+    button {
+        max-height: 30px;
+        margin-top: 20px;
+    }
+
+    input {
+        max-height: 30px;
+        margin-top: 20px;
+        min-width: 200px;
+    }
+
+    #header_2 {
+        display: flex;
+        color: white;
+    }
+
+
+    #header_2>p {
+        margin-right: 40px;
+        left: 100px;
+        position: relative;
+    }
+
+    #content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #content_left>ul>a {
+        display: flex;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    #main_content {
+        background-color: rgb(250, 245, 245);
+    }
+
+    #child_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    #child_content_right {
+        margin-top: 22px;
+        margin-left: 250px;
+        background-color: rgb(226, 241, 243);
+    }
+
+    #tt {
+        background-color: rgb(245, 213, 201);
+    }
+
+    body {
+        margin-top: 0;
+        margin-left: 0;
+
+        background-color: rgb(240, 240, 240);
+    }
+
+    img {
+        width: 150px;
+        height: 110px;
+    }
+
+    .content_img {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .content_img>p {
+        overflow: hidden;
+    }
+
+    #button_content_right {
+        margin-left: 0;
+        color: white;
+        font-weight: 500;
+        background-color: rgb(241, 123, 102);
+        width: 200px;
+        height: 200px;
+    }
+
+    header {
+        background-color: rgb(43, 41, 41);
+    }
+</style>
+<header>
+
+    <div id="header_1">
+        <h1>DIỄN ĐÀN</h1>
+        <h1>CÔNG NGHỆ</h1>
+        <h1>MUA BÁN</h1>
+        <h1>THÀNH VIÊN</h1>
+        <input type="text" placeholder="Tìm kiếm...">
+        <button>ĐĂNG NHẬP</button>
+    </div>
+    <div id="header_2">
+        <p>Android</p>
+        <p>IOS</p>
+        <p>Windows</p>
+        <p>macOS</p>
+        <p>Không có sự kiện nào sắp diễn ra</p>
+    </div>
+</header>
+
+<body>
+    <div id="content">
+        <div id="content_left">
+            <ul>
+
+                <a href=""> <i class="fa fa-car"></i> &ensp; Bài mới</a>
+                <a href=""> <i class="fa fa-car"></i> &ensp;Điện thoại</a>
+                <a href=""> <i class="fa fa-car"></i> &ensp;Máy tính</a>
+                <a href=""> <i class="fa fa-car"></i> &ensp;Camera</a>
+                <a href=""><i class="fa fa-car"></i>&ensp;Xe</a>
+                <a href=""><i class="fa fa-car"></i>&ensp;KHCN</a>
+                <br>
+                <a href=""><i class="fa fa-car"></i>&ensp;Bạn bè</a>
+                <a href=""><i class="fa fa-car"></i>&ensp;Sự kiện</a>
+                <a href=""><i class="fa fa-car"></i>&ensp;Thiết lập</a>
+            </ul>
+        </div>
+        <div id="main_content">
+            <h1>Forum</h1>
+            <div id="thongtinsukien">
+                <div id="tt">
+                    <a href="">Thông tin, sự kiện</a>
+                    <p>Khu vực, thảo luận về thông tin và các sự kiện về công nghệ</p>
+
+                </div>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thông tin công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm nay</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thương mại điện tử</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm qua</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Phim ảnh tuần này</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm kia</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Đám mây, dịch vụ trực tuyến</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thăm dò công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Cà phê tinh tế</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Đám mây, dịch vụ trực tuyến</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thăm dò công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Cà phê tinh tế</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="thongtinsukien">
+                <div id="tt">
+                    <a href="">Máy tính, khóa học</a>
+                    <p>Khu vực, thảo luận về thông tin và các sự kiện về công nghệ</p>
+
+                </div>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thông tin công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm nay</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thương mại điện tử</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm qua</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Phim ảnh tuần này</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước, hôm kia</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Đám mây, dịch vụ trực tuyến</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thăm dò công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Cà phê tinh tế</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thông tin công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thương mại điện tử</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Phim ảnh tuần này</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Đám mây, dịch vụ trực tuyến</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Thăm dò công nghệ</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="child_content">
+                    <div id="child_content_left">
+                        <h3>Cà phê tinh tế</h3>
+                        <p>Chủ đề: 53.543 Bài viết: 1.888.356</p>
+                    </div>
+                    <div id="child_content_right">
+                        <a href="">Mới nhất: Review bút trên tất cả...</a>
+                        <p>tuananh_tran, 17 phút trước.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="content_right">
+            <button id="button_content_right">Đăng ký thành viên</button>
+            <hr>
+            <h1>SÔI ĐỘNG TRONG TUẦN</h1>
+            <div class="content_img">
+                <img src="img/lap_1.jpg" alt="">
+                <p>Công nghệ: Laptop bán mắc nhất trong tuần</p>
+            </div>
+            <div class="content_img">
+                <img src="img/game.jpg" alt="">
+                <p>Game: Game dở nhất trong năm</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/game_2.jpg" alt="">
+                <p>Game: Game hay nhất mọi thời đại</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/lap_2.jpg" alt="">
+                <p>Công nghệ: Laptop thế hệ mới</p>
+            </div>
+            <div class="content_img">
+                <img src="img/lap_3.jpg" alt="">
+                <p>Công nghệ: Laptop pin xài được 10p</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/phim.jpg" alt="">
+                <p>Giải trí: Phim đang dần trở lại</p>
+            </div>
+            <div class="content_img">
+                <img src="img/lap_4.jpg" alt="">
+                <p>Công nghệ: Laptop bán mắc nhất trong tuần</p>
+            </div>
+            <div class="content_img">
+                <img src="img/game_2.jpg" alt="">
+                <p>Game: Game không thể chơi được</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/phim_1.jpg" alt="">
+                <p>Phim: Phim đạt giải ngôi sao đen</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/lap_2.jpg" alt="">
+                <p>Công nghệ: Laptop thế hệ mới</p>
+            </div>
+            <div class="content_img">
+                <img src="img/lap_3.jpg" alt="">
+                <p>Công nghệ: Laptop pin xài được 10p</p>
+            </div>
+            <div class="content_img">
+                <img src="/img/phim.jpg" alt="">
+                <p>Giải trí: Phim đang dần trở lại</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
